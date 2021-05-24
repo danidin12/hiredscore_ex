@@ -1,5 +1,4 @@
 import requests as req
-from http.server import BaseHTTPRequestHandler, HTTPServer
 
 if __name__ == "__main__":
     #set site to check
