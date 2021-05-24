@@ -3,7 +3,7 @@ from http.server import BaseHTTPRequestHandler, HTTPServer
 
 if __name__ == "__main__":
     #set site to check
-    site="http://www.google.com"
+    site = "http://www.google.com"
     resp = req.get(site)
     if resp.status_code != 200:
         msg = f" {site} with error {resp.status_code} "
